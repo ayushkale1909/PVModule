@@ -1,0 +1,4702 @@
+Model {
+  Name			  "MSX60_PS"
+  Version		  7.9
+  MdlSubVersion		  0
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    5
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "Out1"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "Out2"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "Out3"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "Out6"
+    }
+    Outport {
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      Name		      "Out4"
+    }
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.59"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SavedCharacterEncoding  "windows-1252"
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "MSX60_PS"
+      PropName		      "mdlProps"
+    }
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  PhysicalModelingChecksum "3606436791"
+  PhysicalModelingParameterChecksum "33559112"
+  PhysicalModelingProducts "SimElectronics|Simscape"
+  Created		  "Fri Feb 19 09:35:52 2021"
+  Creator		  "pc1"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "pc1"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Fri Apr 09 17:26:18 2021"
+  RTWModifiedTimeStamp	  539865175
+  ModelVersionFormat	  "1.%<AutoIncrement:59>"
+  ConfigurationManager	  "None"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    2
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "MSX60_PS"
+    signals_		    []
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "MSX60_PS"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      3
+      Version		      "1.12.0"
+      Array {
+	Type			"Handle"
+	Dimension		11
+	Simulink.SolverCC {
+	  $ObjectID		  4
+	  Version		  "1.12.0"
+	  StartTime		  "0.0"
+	  StopTime		  "5"
+	  AbsTol		  "auto"
+	  FixedStep		  "1e-3"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-4"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
+	  SolverJacobianMethodControl "SparsePerturbation"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  5
+	  Version		  "1.12.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  on
+	  SaveState		  on
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  6
+	  Version		  "1.12.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseFloatMulNetSlope	  off
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  ParallelExecutionInRapidAccelerator on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  7
+	  Version		  "1.12.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Enable All"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "warning"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  8
+	  Version		  "1.12.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  9
+	  Version		  "1.12.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  10
+	  Version		  "1.12.0"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  11
+	  Version		  "1.12.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    9
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "grt_default_tmf"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      12
+	      Version		      "1.12.0"
+	      Array {
+		Type			"Cell"
+		Dimension		21
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      13
+	      Version		      "1.12.0"
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      CodeReplacementLibrary  "ANSI_C"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      CodeExecutionProfiling  off
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  14
+	  Version		  "1.12.0"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    ""
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	SSC.SimscapeCC {
+	  $ObjectID		  15
+	  Version		  "1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "Name"
+	    PropName		    "DisabledProps"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeLogType	  "none"
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	}
+	DES.SimEventsCC {
+	  $BackupClass		  "Simulink.CustomCC"
+	  $ObjectID		  16
+	  Version		  "1.12.0"
+	  Name			  "SimEvents"
+	  SimEventsActiveTab	  "0"
+	  propIdentEvents	  "0"
+	  propIdentEventSeed	  "123456789"
+	  propMaxDesBlkSimulEvents "1000"
+	  propMaxDesMdlSimulEvents "100000"
+	  propDiagAttribOutput	  "2"
+	  propDiagFcnCallOutput	  "2"
+	  propDiagStatOutput	  "2"
+	  propDiagChangeAttrib	  "2"
+	  propRNGIdenticalSeeds	  "1"
+	  propPreventDuplicateEvents 1
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Diagnostics"
+      ConfigPrmDlgPosition     [ 219, -12, 1148, 652 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    3
+  }
+  ExplicitPartitioning	  off
+  WSMdlFileData		  "DataTag0"
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      FromWorkspace
+      VariableName	      "simulink_input"
+      OutDataTypeStr	      "Inherit: auto"
+      SampleTime	      "-1"
+      Interpolate	      on
+      ZeroCross		      off
+      OutputAfterFinalValue   "Extrapolation"
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ParamMin		      "[]"
+      ParamMax		      "[]"
+      ParamDataTypeStr	      "Inherit: Same as input"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      PMIOPort
+    }
+    Block {
+      BlockType		      Stop
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+    }
+  }
+  System {
+    Name		    "MSX60_PS"
+    Location		    [2, 82, 1348, 715]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "80"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "350"
+    Block {
+      BlockType		      Reference
+      Name		      "CVS"
+      SID		      "100"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [890, 175, 930, 215]
+      ZOrder		      6
+      BlockRotation	      90
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sources/Controlled Voltage\nSource"
+      SourceType	      "Controlled Voltage\nSource"
+      SourceFile	      "foundation.electrical.sources.controlled_voltage"
+      ComponentPath	      "foundation.electrical.sources.controlled_voltage"
+      ComponentVariants	      "foundation.electrical.sources.controlled_voltage"
+      ComponentVariantNames   "controlled_voltage"
+      ClassName		      "controlled_voltage"
+      SchemaVersion	      "1"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "107"
+      Position		      [630, 525, 660, 555]
+      ZOrder		      -4
+      Value		      "D"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      SID		      "110"
+      Position		      [1095, 110, 1125, 140]
+      ZOrder		      -4
+      Value		      "Flag"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Current Sensor"
+      SID		      "6"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [835, 80, 875, 120]
+      ZOrder		      1
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Current Sensor"
+      SourceType	      "Current Sensor"
+      SourceFile	      "foundation.electrical.sensors.current"
+      ComponentPath	      "foundation.electrical.sensors.current"
+      ComponentVariants	      "foundation.electrical.sensors.current"
+      ComponentVariantNames   "current"
+      ClassName		      "current"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference"
+      SID		      "16"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [960, 345, 1000, 385]
+      ZOrder		      9
+      BlockRotation	      270
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      SourceFile	      "foundation.electrical.elements.reference"
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ComponentVariants	      "foundation.electrical.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      i_Log		      "off"
+      LocalVarNames	      "|i"
+      LocalVarDescs	      "|i"
+      LocalVarLogging	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference1"
+      SID		      "226"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [490, 305, 530, 345]
+      ZOrder		      9
+      BlockRotation	      270
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      SourceFile	      "foundation.electrical.elements.reference"
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ComponentVariants	      "foundation.electrical.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      i_Log		      "off"
+      LocalVarNames	      "|i"
+      LocalVarDescs	      "|i"
+      LocalVarLogging	      "0"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain"
+      SID		      "111"
+      Position		      [710, 517, 800, 563]
+      ZOrder		      -8
+      Gain		      "Voc_array"
+      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "MSX60 -10x1"
+      SID		      "318"
+      Ports		      [0, 0, 0, 0, 0, 10, 2]
+      Position		      [630, 90, 690, 300]
+      NamePlacement	      "alternate"
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"MSX60 -10x1"
+	Location		[2, 82, 1331, 715]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode1"
+	  SID			  "319"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [756, 930, 784, 970]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode10"
+	  SID			  "320"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 125, 809, 165]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode2"
+	  SID			  "321"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [761, 855, 789, 895]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode3"
+	  SID			  "322"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [766, 770, 794, 810]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode4"
+	  SID			  "323"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [771, 685, 799, 725]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode5"
+	  SID			  "324"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [771, 580, 799, 620]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode6"
+	  SID			  "325"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 495, 809, 535]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode7"
+	  SID			  "326"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 405, 809, 445]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode8"
+	  SID			  "327"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 325, 809, 365]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode9"
+	  SID			  "328"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 230, 809, 270]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV1"
+	  SID			  "329"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [600, 915, 640, 955]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV10"
+	  SID			  "330"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [710, 125, 750, 165]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV2"
+	  SID			  "331"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [610, 855, 650, 895]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV3"
+	  SID			  "332"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [620, 760, 660, 800]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV4"
+	  SID			  "333"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [650, 675, 690, 715]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV5"
+	  SID			  "334"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [660, 585, 700, 625]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV6"
+	  SID			  "335"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [670, 505, 710, 545]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV7"
+	  SID			  "336"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [680, 405, 720, 445]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV8"
+	  SID			  "337"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [690, 325, 730, 365]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV9"
+	  SID			  "338"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [700, 230, 740, 270]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "+"
+	  SID			  "339"
+	  Position		  [920, 55, 935, 85]
+	  BlockMirror		  on
+	  Port			  "1"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G2"
+	  SID			  "340"
+	  Position		  [555, 125, 585, 140]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G3"
+	  SID			  "341"
+	  Position		  [545, 250, 575, 265]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G4"
+	  SID			  "342"
+	  Position		  [540, 345, 570, 360]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "4"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G5"
+	  SID			  "343"
+	  Position		  [530, 440, 560, 455]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "5"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G6"
+	  SID			  "344"
+	  Position		  [530, 515, 560, 530]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "6"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G7"
+	  SID			  "345"
+	  Position		  [530, 610, 560, 625]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "7"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G8"
+	  SID			  "346"
+	  Position		  [525, 695, 555, 710]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "8"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G9"
+	  SID			  "347"
+	  Position		  [495, 800, 525, 815]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "9"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G10"
+	  SID			  "348"
+	  Position		  [500, 870, 530, 885]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  Port			  "10"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "-"
+	  SID			  "349"
+	  Position		  [760, 1010, 775, 1040]
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  Port			  "11"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G1"
+	  SID			  "350"
+	  Position		  [555, 30, 585, 45]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "12"
+	  Side			  "Left"
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode4"
+	  SrcPort		  LConn1
+	  Points		  [0, 5; -5, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-75, 0; -35, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV3"
+	      SrcPort		      LConn2
+	      Points		      [20, 0]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV4"
+	      DstPort		      RConn1
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode3"
+	    SrcPort		    RConn1
+	    Points		    [0, -10]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode5"
+	  SrcPort		  LConn1
+	  Points		  [0, 20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-55, 0; -50, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV5"
+	      SrcPort		      RConn1
+	      Points		      [0, 15]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV4"
+	      DstPort		      LConn2
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode4"
+	    SrcPort		    RConn1
+	    Points		    [0, -15]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode6"
+	  SrcPort		  LConn1
+	  Points		  [0, 15; -50, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-55, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV6"
+	      SrcPort		      RConn1
+	      Points		      [0, 5]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV5"
+	      DstPort		      LConn2
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode5"
+	    SrcPort		    RConn1
+	    Points		    [-40, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "PV8"
+	  SrcPort		  RConn1
+	  Points		  [0, 10]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "PV7"
+	    DstPort		    LConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [55, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "Diode7"
+	      DstPort		      RConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [30, 0]
+	      DstBlock		      "Diode8"
+	      DstPort		      LConn1
+	    }
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode9"
+	  SrcPort		  LConn1
+	  Points		  [0, 20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-15, 0; -60, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV8"
+	      DstPort		      LConn2
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV9"
+	      SrcPort		      RConn1
+	      Points		      [0, 20]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode8"
+	    SrcPort		    RConn1
+	    Points		    [0, -5]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G10"
+	  SrcPort		  RConn1
+	  DstBlock		  "PV1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "-"
+	  SrcPort		  RConn1
+	  Points		  [0, -5; -50, 0; 0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -5; -75, 0]
+	    DstBlock		    "PV1"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Diode1"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G9"
+	  SrcPort		  RConn1
+	  Points		  [110, 0]
+	  DstBlock		  "PV2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode2"
+	  SrcPort		  LConn1
+	  Points		  [0, 5; -10, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-135, 0; 0, -10]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV2"
+	      SrcPort		      RConn1
+	      Points		      [0, -5]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV1"
+	      DstPort		      LConn2
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode1"
+	    SrcPort		    RConn1
+	    Points		    [-5, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode3"
+	  SrcPort		  LConn1
+	  Points		  [0, 5]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-95, 0; -45, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV2"
+	      DstPort		      LConn2
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV3"
+	      SrcPort		      RConn1
+	      Points		      [0, 15]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode2"
+	    SrcPort		    RConn1
+	    Points		    [0, -10; 5, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G8"
+	  SrcPort		  RConn1
+	  Points		  [90, 0]
+	  DstBlock		  "PV3"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "PV6"
+	  SrcPort		  LConn2
+	  Points		  [0, -20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "PV7"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [90, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [5, 0]
+	      DstBlock		      "Diode7"
+	      DstPort		      LConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "Diode6"
+	      SrcPort		      RConn1
+	      Points		      [0, -10; -5, 0]
+	    }
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "PV9"
+	  SrcPort		  LConn2
+	  Points		  [0, -10]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "PV10"
+	    SrcPort		    RConn1
+	    Points		    [0, 25]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [60, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [5, 0]
+	      DstBlock		      "Diode9"
+	      DstPort		      RConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [5, 0]
+	      DstBlock		      "Diode10"
+	      DstPort		      LConn1
+	    }
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode10"
+	  SrcPort		  RConn1
+	  Points		  [0, -25; -20, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-35, 0]
+	    DstBlock		    "PV10"
+	    DstPort		    LConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "+"
+	    SrcPort		    RConn1
+	    Points		    [-130, 0; 0, 15]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G7"
+	  SrcPort		  RConn1
+	  Points		  [0, 10; 115, 0]
+	  DstBlock		  "PV4"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G6"
+	  SrcPort		  RConn1
+	  Points		  [0, 10; 125, 0]
+	  DstBlock		  "PV5"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G5"
+	  SrcPort		  RConn1
+	  Points		  [0, 10; 135, 0]
+	  DstBlock		  "PV6"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G4"
+	  SrcPort		  RConn1
+	  Points		  [0, 5; 135, 0]
+	  DstBlock		  "PV7"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G3"
+	  SrcPort		  RConn1
+	  Points		  [0, 15; 140, 0]
+	  DstBlock		  "PV8"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G2"
+	  SrcPort		  RConn1
+	  Points		  [0, 50; 140, 0]
+	  DstBlock		  "PV9"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G1"
+	  SrcPort		  RConn1
+	  Points		  [0, 20; 150, 0]
+	  DstBlock		  "PV10"
+	  DstPort		  LConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "MSX60 -10x3"
+      SID		      "285"
+      Ports		      [0, 0, 0, 0, 0, 10, 2]
+      Position		      [405, 90, 465, 300]
+      NamePlacement	      "alternate"
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"MSX60 -10x3"
+	Location		[2, 82, 1331, 715]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode1"
+	  SID			  "286"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [756, 930, 784, 970]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode10"
+	  SID			  "287"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 125, 809, 165]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode2"
+	  SID			  "288"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [761, 855, 789, 895]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode3"
+	  SID			  "289"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [766, 770, 794, 810]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode4"
+	  SID			  "290"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [771, 685, 799, 725]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode5"
+	  SID			  "291"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [771, 580, 799, 620]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode6"
+	  SID			  "292"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 495, 809, 535]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode7"
+	  SID			  "293"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 405, 809, 445]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode8"
+	  SID			  "294"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 325, 809, 365]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Diode9"
+	  SID			  "295"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [781, 230, 809, 270]
+	  ZOrder		  8
+	  BlockRotation		  270
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Diode"
+	  SourceType		  "Diode"
+	  SourceFile		  "foundation.electrical.elements.pwl_diode"
+	  ComponentPath		  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariants	  "foundation.electrical.elements.pwl_diode"
+	  ComponentVariantNames	  "pwl_diode"
+	  ClassName		  "pwl_diode"
+	  SchemaVersion		  "1"
+	  Vf			  "0.6"
+	  Vf_unit		  "V"
+	  Ron			  "0.3"
+	  Ron_unit		  "Ohm"
+	  Goff			  "1e-8"
+	  Goff_unit		  "1/Ohm"
+	  i_Log			  "off"
+	  v_Log			  "off"
+	  LocalVarNames		  "|i|v"
+	  LocalVarDescs		  "|i|v"
+	  LocalVarLogging	  "[0 0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV1"
+	  SID			  "296"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [600, 915, 640, 955]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV10"
+	  SID			  "297"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [710, 125, 750, 165]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV2"
+	  SID			  "298"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [610, 855, 650, 895]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV3"
+	  SID			  "299"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [620, 760, 660, 800]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV4"
+	  SID			  "300"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [650, 675, 690, 715]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV5"
+	  SID			  "301"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [660, 585, 700, 625]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV6"
+	  SID			  "302"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [670, 505, 710, 545]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV7"
+	  SID			  "303"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [680, 405, 720, 445]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV8"
+	  SID			  "304"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [690, 325, 730, 365]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PV9"
+	  SID			  "305"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [700, 230, 740, 270]
+	  ZOrder		  5
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "elec_lib/Sources/Solar Cell"
+	  SourceType		  "Solar Cell"
+	  SourceFile		  "elec.sources.solar_cell"
+	  ComponentPath		  "elec.sources.solar_cell"
+	  ComponentVariants	  "elec.sources.solar_cell, elec.sources.solar_cell_thermal"
+	  ComponentVariantNames	  "No thermal port, Show thermal port"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  prm			  "1"
+	  prm_unit		  "1"
+	  Isc			  "Isc"
+	  Isc_unit		  "A"
+	  Voc			  "Voc*Ns"
+	  Voc_unit		  "V"
+	  Is			  "1e-6"
+	  Is_unit		  "A"
+	  Is2			  "0"
+	  Is2_unit		  "A"
+	  Iph			  "3.8"
+	  Iph_unit		  "A"
+	  Ir0			  "Gstc"
+	  Ir0_unit		  "W/m^2"
+	  ec			  "n*Voc*Ns"
+	  ec_unit		  "1"
+	  N2			  "0"
+	  N2_unit		  "1"
+	  Rs			  "Rs*Ns"
+	  Rs_unit		  "Ohm"
+	  Rp			  "Inf"
+	  Rp_unit		  "Ohm"
+	  TIPH1			  "0"
+	  TIPH1_unit		  "1/K"
+	  EG			  "1.11"
+	  EG_unit		  "eV"
+	  TXIS1			  "3"
+	  TXIS1_unit		  "1"
+	  TXIS2			  "3"
+	  TXIS2_unit		  "1"
+	  TRS1			  "0"
+	  TRS1_unit		  "1"
+	  TRP1			  "0"
+	  TRP1_unit		  "1"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "C"
+	  TFIXED		  "25"
+	  TFIXED_unit		  "C"
+	  LocalVarLogging	  "[]"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  initial_temperature	  "25"
+	  initial_temperature_unit "C"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "+"
+	  SID			  "306"
+	  Position		  [920, 55, 935, 85]
+	  BlockMirror		  on
+	  Port			  "1"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G2"
+	  SID			  "307"
+	  Position		  [555, 125, 585, 140]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G3"
+	  SID			  "308"
+	  Position		  [545, 250, 575, 265]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G4"
+	  SID			  "309"
+	  Position		  [540, 345, 570, 360]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "4"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G5"
+	  SID			  "310"
+	  Position		  [530, 440, 560, 455]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "5"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G6"
+	  SID			  "311"
+	  Position		  [530, 515, 560, 530]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "6"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G7"
+	  SID			  "312"
+	  Position		  [530, 610, 560, 625]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "7"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G8"
+	  SID			  "313"
+	  Position		  [525, 695, 555, 710]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "8"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G9"
+	  SID			  "314"
+	  Position		  [495, 800, 525, 815]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "9"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G10"
+	  SID			  "315"
+	  Position		  [500, 870, 530, 885]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  Port			  "10"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "-"
+	  SID			  "316"
+	  Position		  [760, 1010, 775, 1040]
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  Port			  "11"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "G1"
+	  SID			  "317"
+	  Position		  [555, 30, 585, 45]
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  Port			  "12"
+	  Side			  "Left"
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode4"
+	  SrcPort		  LConn1
+	  Points		  [0, 5; -5, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-75, 0; -35, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV3"
+	      SrcPort		      LConn2
+	      Points		      [20, 0]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV4"
+	      DstPort		      RConn1
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode3"
+	    SrcPort		    RConn1
+	    Points		    [0, -10]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode5"
+	  SrcPort		  LConn1
+	  Points		  [0, 20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-55, 0; -50, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV5"
+	      SrcPort		      RConn1
+	      Points		      [0, 15]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV4"
+	      DstPort		      LConn2
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode4"
+	    SrcPort		    RConn1
+	    Points		    [0, -15]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode6"
+	  SrcPort		  LConn1
+	  Points		  [0, 15; -50, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-55, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV6"
+	      SrcPort		      RConn1
+	      Points		      [0, 5]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV5"
+	      DstPort		      LConn2
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode5"
+	    SrcPort		    RConn1
+	    Points		    [-40, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "PV8"
+	  SrcPort		  RConn1
+	  Points		  [0, 10]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "PV7"
+	    DstPort		    LConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [55, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "Diode7"
+	      DstPort		      RConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [30, 0]
+	      DstBlock		      "Diode8"
+	      DstPort		      LConn1
+	    }
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode9"
+	  SrcPort		  LConn1
+	  Points		  [0, 20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-15, 0; -60, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV8"
+	      DstPort		      LConn2
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV9"
+	      SrcPort		      RConn1
+	      Points		      [0, 20]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode8"
+	    SrcPort		    RConn1
+	    Points		    [0, -5]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G10"
+	  SrcPort		  RConn1
+	  DstBlock		  "PV1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "-"
+	  SrcPort		  RConn1
+	  Points		  [0, -5; -50, 0; 0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -5; -75, 0]
+	    DstBlock		    "PV1"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Diode1"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G9"
+	  SrcPort		  RConn1
+	  Points		  [110, 0]
+	  DstBlock		  "PV2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode2"
+	  SrcPort		  LConn1
+	  Points		  [0, 5; -10, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-135, 0; 0, -10]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV2"
+	      SrcPort		      RConn1
+	      Points		      [0, -5]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV1"
+	      DstPort		      LConn2
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode1"
+	    SrcPort		    RConn1
+	    Points		    [-5, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode3"
+	  SrcPort		  LConn1
+	  Points		  [0, 5]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-95, 0; -45, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "PV2"
+	      DstPort		      LConn2
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "PV3"
+	      SrcPort		      RConn1
+	      Points		      [0, 15]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Diode2"
+	    SrcPort		    RConn1
+	    Points		    [0, -10; 5, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G8"
+	  SrcPort		  RConn1
+	  Points		  [90, 0]
+	  DstBlock		  "PV3"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "PV6"
+	  SrcPort		  LConn2
+	  Points		  [0, -20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "PV7"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [90, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [5, 0]
+	      DstBlock		      "Diode7"
+	      DstPort		      LConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "Diode6"
+	      SrcPort		      RConn1
+	      Points		      [0, -10; -5, 0]
+	    }
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "PV9"
+	  SrcPort		  LConn2
+	  Points		  [0, -10]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "PV10"
+	    SrcPort		    RConn1
+	    Points		    [0, 25]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [60, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [5, 0]
+	      DstBlock		      "Diode9"
+	      DstPort		      RConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [5, 0]
+	      DstBlock		      "Diode10"
+	      DstPort		      LConn1
+	    }
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "Diode10"
+	  SrcPort		  RConn1
+	  Points		  [0, -25; -20, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-35, 0]
+	    DstBlock		    "PV10"
+	    DstPort		    LConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "+"
+	    SrcPort		    RConn1
+	    Points		    [-130, 0; 0, 15]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G7"
+	  SrcPort		  RConn1
+	  Points		  [0, 10; 115, 0]
+	  DstBlock		  "PV4"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G6"
+	  SrcPort		  RConn1
+	  Points		  [0, 10; 125, 0]
+	  DstBlock		  "PV5"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G5"
+	  SrcPort		  RConn1
+	  Points		  [0, 10; 135, 0]
+	  DstBlock		  "PV6"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G4"
+	  SrcPort		  RConn1
+	  Points		  [0, 5; 135, 0]
+	  DstBlock		  "PV7"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G3"
+	  SrcPort		  RConn1
+	  Points		  [0, 15; 140, 0]
+	  DstBlock		  "PV8"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G2"
+	  SrcPort		  RConn1
+	  Points		  [0, 50; 140, 0]
+	  DstBlock		  "PV9"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  SrcBlock		  "G1"
+	  SrcPort		  RConn1
+	  Points		  [0, 20; 150, 0]
+	  DstBlock		  "PV10"
+	  DstPort		  LConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter1"
+      SID		      "12"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [930, 75, 960, 105]
+      ZOrder		      1
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter2"
+      SID		      "47"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [1055, 290, 1085, 320]
+      ZOrder		      1
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Signal Builder"
+      SID		      "125"
+      Tag		      "STV Subsys"
+      Ports		      [0, 3]
+      Position		      [15, 88, 115, 172]
+      ZOrder		      -20
+      CopyFcn		      "sigbuilder_block('copy');"
+      DeleteFcn		      "sigbuilder_block('delete');"
+      LoadFcn		      "sigbuilder_block('load');"
+      ModelCloseFcn	      "sigbuilder_block('modelClose');"
+      PreSaveFcn	      "sigbuilder_block('preSave');"
+      StartFcn		      "sigbuilder_block('start');"
+      PauseFcn		      "sigbuilder_block('pause');"
+      ContinueFcn	      "sigbuilder_block('continue');"
+      StopFcn		      "sigbuilder_block('stop');"
+      NameChangeFcn	      "sigbuilder_block('namechange');"
+      ClipboardFcn	      "sigbuilder_block('clipboard');"
+      OpenFcn		      "sigbuilder_block('open',[437.25 36 570 477 ]);"
+      CloseFcn		      "sigbuilder_block('close');"
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      on
+      MaskType		      "Sigbuilder block"
+      MaskDescription	      "Simulink:masks:SigbuilderBlock_MD"
+      MaskInitialization      "if ~strcmp(get_param(bdroot(gcbh),'SimulationStatus'),'stopped') tuvar = sigbuilder_blo"
+      "ck('maskInit'); end"
+      MaskSelfModifiable      on
+      MaskDisplay	      "plot(0, 0, 100, 100,[2, 2, 32, 32, 2], [68, 8, 8, 68, 68],[32, 2], [38, 38], [32, 19, 2],[53,"
+      " 60, 44], [32, 17, 17, 2],[16, 16, 31, 31]);txt = getActiveGroup(gcbh);text(2, 100, txt,'verticalAlignment', 'to"
+      "p');"
+      MaskIconFrame	      on
+      MaskIconOpaque	      off
+      MaskIconRotate	      "port"
+      MaskPortRotate	      "default"
+      MaskIconUnits	      "autoscale"
+      MaskCapabilities	      "slmaskedcaps(gcbh)"
+      System {
+	Name			"Signal Builder"
+	Location		[480, 85, 980, 386]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"9"
+	Block {
+	  BlockType		  Demux
+	  Name			  "Demux"
+	  SID			  "125:1"
+	  Tag			  "STV Demux"
+	  Ports			  [1, 3]
+	  Position		  [150, 46, 160, 624]
+	  ZOrder		  -1
+	  Outputs		  "3"
+	}
+	Block {
+	  BlockType		  FromWorkspace
+	  Name			  "FromWs"
+	  SID			  "125:2"
+	  Tag			  "STV FromWs"
+	  Position		  [30, 300, 115, 350]
+	  ZOrder		  -2
+	  VariableName		  "tuvar"
+	  SampleTime		  "0"
+	  ZeroCross		  on
+	  SigBuilderData	  "DataTag1"
+	  VnvData		  "DataTag2"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Signal 2"
+	  SID			  "125:7"
+	  Tag			  "STV Outport"
+	  Position		  [280, 30, 300, 40]
+	  ZOrder		  4
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Signal 3"
+	  SID			  "125:8"
+	  Tag			  "STV Outport"
+	  Position		  [280, 60, 300, 70]
+	  ZOrder		  5
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Signal 4"
+	  SID			  "125:9"
+	  Tag			  "STV Outport"
+	  Position		  [280, 90, 300, 100]
+	  ZOrder		  6
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "FromWs"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  DstBlock		  "Demux"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Demux"
+	  SrcPort		  1
+	  DstBlock		  "Signal 2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Demux"
+	  SrcPort		  2
+	  DstBlock		  "Signal 3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Demux"
+	  SrcPort		  3
+	  DstBlock		  "Signal 4"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter"
+      SID		      "48"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [840, 522, 870, 558]
+      ZOrder		      2
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_input"
+      Unit		      "1"
+      AffineConversion	      off
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "[]"
+      SimscapeFilterOrder     "1"
+      InputFiltering	      "off"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter1"
+      SID		      "97"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [265, 82, 295, 118]
+      ZOrder		      2
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_input"
+      Unit		      "1"
+      AffineConversion	      off
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "[]"
+      SimscapeFilterOrder     "1"
+      InputFiltering	      "off"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter2"
+      SID		      "228"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [265, 242, 295, 278]
+      ZOrder		      2
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_input"
+      Unit		      "1"
+      AffineConversion	      off
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "[]"
+      SimscapeFilterOrder     "1"
+      InputFiltering	      "off"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter4"
+      SID		      "280"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [265, 167, 295, 203]
+      ZOrder		      2
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_input"
+      Unit		      "1"
+      AffineConversion	      off
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "[]"
+      SimscapeFilterOrder     "1"
+      InputFiltering	      "off"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Solver\nConfiguration"
+      SID		      "15"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [765, 399, 810, 431]
+      ZOrder		      3
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/Solver\nConfiguration"
+      SourceType	      "Solver\nConfiguration"
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "generic"
+      SubClassName	      "solver"
+      UseCustomDae	      off
+      DoDC		      on
+      ResidualTolerance	      "1e-9"
+      UseLocalSolver	      on
+      LocalSolverChoice	      "NE_TRAPEZOIDAL_ADVANCER"
+      LocalSolverSampleTime   ".001"
+      DoFixedCost	      on
+      MaxNonlinIter	      "3"
+      MaxModeIter	      "2"
+      LinearAlgebra	      "Sparse"
+      Accelerate	      off
+      Profile		      off
+      UseLocalSampling	      off
+      DelaysMemoryBudget      "1024"
+    }
+    Block {
+      BlockType		      Stop
+      Name		      "Stop Simulation"
+      SID		      "109"
+      Position		      [1170, 107, 1205, 143]
+      ZOrder		      -4
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor"
+      SID		      "49"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [990, 230, 1030, 270]
+      ZOrder		      2
+      BlockRotation	      90
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      SourceFile	      "foundation.electrical.sensors.voltage"
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ComponentVariants	      "foundation.electrical.sensors.voltage"
+      ComponentVariantNames   "voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out1"
+      SID		      "31"
+      Position		      [1145, 298, 1175, 312]
+      ZOrder		      -23
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out2"
+      SID		      "32"
+      Position		      [995, 83, 1025, 97]
+      ZOrder		      -23
+      Port		      "2"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out3"
+      SID		      "132"
+      Position		      [190, 133, 220, 147]
+      ZOrder		      -23
+      Port		      "3"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out6"
+      SID		      "281"
+      Position		      [170, 203, 200, 217]
+      ZOrder		      -23
+      Port		      "4"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out4"
+      SID		      "231"
+      Position		      [155, 283, 185, 297]
+      ZOrder		      -23
+      Port		      "5"
+      IconDisplay	      "Port number"
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter1"
+      SrcPort		      1
+      DstBlock		      "Out2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter2"
+      SrcPort		      1
+      DstBlock		      "Out1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      DstBlock		      "Stop Simulation"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Gain"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      DstBlock		      "Gain"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter1"
+      SrcPort		      LConn1
+      DstBlock		      "Current Sensor"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "CVS"
+      SrcPort		      LConn1
+      Points		      [0, -25]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, -25]
+	DstBlock		"Current Sensor"
+	DstPort			RConn2
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[100, 0]
+	DstBlock		"Voltage Sensor"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Simulink-PS\nConverter"
+      SrcPort		      RConn1
+      Points		      [35, 0]
+      DstBlock		      "CVS"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter2"
+      SrcPort		      LConn1
+      Points		      [-20, 0]
+      DstBlock		      "Voltage Sensor"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Solver\nConfiguration"
+      SrcPort		      RConn1
+      Points		      [30, 0; 0, -80]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, -5; 45, 0; 0, -25]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "CVS"
+	  SrcPort		  RConn2
+	  Points		  [0, 75]
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  Points		  [80, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Voltage Sensor"
+	    SrcPort		    RConn2
+	    Points		    [0, 20; -20, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Electrical Reference"
+	    DstPort		    LConn1
+	  }
+	}
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"MSX60 -10x1"
+	SrcPort			RConn2
+	Points			[150, 0; 0, 85]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "MSX60 -10x1"
+      SrcPort		      RConn1
+      Points		      [55, 0; 0, -45]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Current Sensor"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"MSX60 -10x3"
+	SrcPort			RConn1
+	Points			[45, 0; 0, -90; 235, 0; 0, 45]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Electrical Reference1"
+      SrcPort		      LConn1
+      Points		      [0, -40]
+      DstBlock		      "MSX60 -10x3"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [600, 125; 0, -5]
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"MSX60 -10x1"
+	SrcPort			LConn2
+	Points			[-15, 0]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	Points			[0, 20]
+	DstBlock		"MSX60 -10x1"
+	DstPort			LConn3
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, -15]
+	DstBlock		"MSX60 -10x1"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[320, 125; 0, 270; 230, 0; 0, -275; 50, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Simulink-PS\nConverter1"
+	  SrcPort		  RConn1
+	  Points		  [10, 0; 0, 25]
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  Points		  [55, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [370, 125; 5, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "MSX60 -10x3"
+	      SrcPort		      LConn3
+	      Points		      [-20, 0; 0, -20]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_SRC"
+	      Points		      [0, -20]
+	      DstBlock		      "MSX60 -10x3"
+	      DstPort		      LConn1
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "MSX60 -10x3"
+	    DstPort		    LConn2
+	  }
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [600, 205; 0, -10]
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"MSX60 -10x1"
+	SrcPort			LConn7
+	Points			[-15, 0; 0, -20]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"MSX60 -10x1"
+	DstPort			LConn6
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, -10]
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  Points		  [0, -20]
+	  DstBlock		  "MSX60 -10x1"
+	  DstPort		  LConn4
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  DstBlock		  "MSX60 -10x1"
+	  DstPort		  LConn5
+	}
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[335, 185; 0, 235; 230, 0; 0, -225; 35, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Simulink-PS\nConverter4"
+	  SrcPort		  RConn1
+	  Points		  [25, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  Points		  [35, 0; 0, -5]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -15]
+	    DstBlock		    "MSX60 -10x3"
+	    DstPort		    LConn4
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, 5]
+	    DstBlock		    "MSX60 -10x3"
+	    DstPort		    LConn5
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [370, 205; 0, -25]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "MSX60 -10x3"
+	      SrcPort		      LConn7
+	      Points		      [-20, 0; 0, -20]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_SRC"
+	      DstBlock		      "MSX60 -10x3"
+	      DstPort		      LConn6
+	    }
+	  }
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "MSX60 -10x1"
+      SrcPort		      LConn10
+      Points		      [-20, 0; 0, -20]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, -20]
+	DstBlock		"MSX60 -10x1"
+	DstPort			LConn8
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"MSX60 -10x1"
+	DstPort			LConn9
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[350, 260; 0, 185; 225, 0; 0, -180; 20, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Simulink-PS\nConverter2"
+	  SrcPort		  RConn1
+	  Points		  [40, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  Points		  [25, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [375, 265; 0, -5]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "MSX60 -10x3"
+	      SrcPort		      LConn10
+	      Points		      [-15, 0; 0, -20]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_SRC"
+	      DstBlock		      "MSX60 -10x3"
+	      DstPort		      LConn9
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -15]
+	    DstBlock		    "MSX60 -10x3"
+	    DstPort		    LConn8
+	  }
+	}
+      }
+    }
+    Line {
+      SrcBlock		      "Signal Builder"
+      SrcPort		      1
+      Points		      [30, 0]
+      Branch {
+	DstBlock		"Simulink-PS\nConverter1"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 40]
+	DstBlock		"Out3"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Signal Builder"
+      SrcPort		      2
+      Points		      [15, 0; 0, 55]
+      Branch {
+	DstBlock		"Simulink-PS\nConverter4"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 25]
+	DstBlock		"Out6"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Signal Builder"
+      SrcPort		      3
+      Points		      [0, 100]
+      Branch {
+	DstBlock		"Simulink-PS\nConverter2"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 30]
+	DstBlock		"Out4"
+	DstPort			1
+      }
+    }
+    Annotation {
+      SID		      "94"
+      Name		      " "
+      Position		      [497, 71]
+    }
+    Annotation {
+      SID		      "223"
+      Name		      "10 x2 SP with Partial  Shading"
+      Position		      [651, 37]
+    }
+    Annotation {
+      SID		      "224"
+      Name		      "Four levels of G [ 1000,800,500,300]"
+      Position		      [199, 35]
+    }
+    Annotation {
+      SID		      "225"
+      Name		      "Test is for 3 sec. Partial Shading is set to take place at 1 sec and it reaims for 1 second duratio"
+      "n ."
+      Position		      [294, 54]
+    }
+  }
+}
+MatData {
+  NumRecords		  3
+  DataRecord {
+    Tag			    DataTag2
+    Data		    "  %)30     .    R ,   8    (     @         %    \"     $    !     0         %  0 $0    $   #,    =F5R:6"
+    "9Y0FQK4&%T:',   !V97)I9GE\";&M(86YD;&5S '9N=DUG<DED>           86-T:79E1W)O=7        !R97%$:7-P4')C;G0      &)L:T1"
+    "I<W!-;V1E        9W)O=7!#;G0           !G<F]U<%)E<4-N=        &=R;W5P1$]/4E-I9       ;6]D96Q(              !B;&]C:"
+    "T@              &]V97)I9&53971T:6YG<P        X    P    !@    @    &          4    (               !          D    "
+    "     #@   #     &    \"     8         !0    @               $         \"0         .    ,     8    (    !@         "
+    "%    \"                0         )          X    X    !@    @    &          4    (     0    $    !          D    ("
+    "            \\#\\.    ,     8    (    !@         %    \"                0         )          X    P    !@    @    "
+    "&          4    (               !          D         #@   #@    &    \"     8         !0    @    !     0    $     "
+    "    \"0    @           #P/PX    P    !@    @    &          4    (               !          D         #@   #     & "
+    "   \"     8         !0    @               $         \"0         .    .     8    (    !@         %    \"     $    !"
+    "     0         )    \"        \"  !)Y #@   #@    &    \"     8         !0    @    !     0    $         \"0    @   "
+    "     0 (Z@0 X    P    !@    @    &          4    (               !          D         "
+  }
+  DataRecord {
+    Tag			    DataTag1
+    Data		    "  %)30     .    X!$   8    (     @         %    \"     $    !     0         %  0 %@    $   \"P    9W)I9"
+    "%-E='1I;F<              &-H86YN96QS                  !A>&5S                        8V]M;6]N                     &1"
+    "A=&%3970                   !D871A4V5T261X                :7-697)I9FEC871I;VY6:7-I8FQE '-B;V)J                     "
+    "  .    ,     8    (    !          %    \"     $    \"     0         0  ( ;VX   X   !P!P  !@    @    \"          4 "
+    "   (     0    ,    !          4 !  *     0   %H   !S=&5P6       <W1E<%D      'E-:6X       !Y36%X        8V]L;W(   "
+    "   &QI;F53='EL90!L:6YE5VED=&@ ;&%B96P      &]U=$EN9&5X           .    .     8    (    !@         %    \"     $    "
+    "!     0         )    \"               #@   #@    &    \"     8         !0    @    !     0    $         \"0    @   "
+    "            X    X    !@    @    &          4    (     0    $    !          D    (            \\/\\.    .     8   "
+    " (    !@         %    \"     $    !     0         )    \"            /!_#@   $@    &    \"     8         !0    @  "
+    "  !     P    $         \"0   !@   #8@7-&E/;F/P          V(%S1I3VYC\\.    ,     8    (    !          %    \"     $ "
+    "   !     0         0  $ +0    X    X    !@    @    &          4    (     0    $    !          D    (            ^#"
+    "\\.    .     8    (    !          %    \"     $    (     0         0    \"    %-I9VYA;\" R#@   #@    &    \"     8"
+    "         !0    @    !     0    $         \"0    @           #P/PX    X    !@    @    &          4    (     0    $ "
+    "   !          D    (               .    .     8    (    !@         %    \"     $    !     0         )    \"       "
+    "        #@   #@    &    \"     8         !0    @    !     0    $         \"0    @           #P_PX    X    !@    @ "
+    "   &          4    (     0    $    !          D    (            \\'\\.    2     8    (    !@         %    \"     $"
+    "    #     0         )    &    -B!<T:4]N8_          #8@7-&E/;F/PX    P    !@    @    $          4    (     0    $  "
+    "  !         !   0 M    #@   #@    &    \"     8         !0    @    !     0    $         \"0    @           #X/PX  "
+    "  X    !@    @    $          4    (     0    @    !         !     (    4VEG;F%L(#,.    .     8    (    !@         "
+    "%    \"     $    !     0         )    \"             ! #@   #@    &    \"     8         !0    @    !     0    $   "
+    "      \"0    @               X    X    !@    @    &          4    (     0    $    !          D    (               "
+    ".    .     8    (    !@         %    \"     $    !     0         )    \"            /#_#@   #@    &    \"     8   "
+    "      !0    @    !     0    $         \"0    @           #P?PX   !(    !@    @    &          4    (     0    ,    "
+    "!          D    8    V(%S1I3VYC\\          -B!<T:4]N8_#@   #     &    \"     0         !0    @    !     0    $    "
+    "     $  ! \"T    .    .     8    (    !@         %    \"     $    !     0         )    \"            /@_#@   #@   "
+    " &    \"     0         !0    @    !    \"     $         $     @   !3:6=N86P@- X    X    !@    @    &          4   "
+    " (     0    $    !          D    (            \"$ .    , 0   8    (     @         %    \"     $    #     0        "
+    " %  0 \"P    $    W    8VAA;FYE;',   !Y3&EM         &QA8F5L4&]S    ;&%B96Q(      !L86)E;%!A=&-H   .    .     8    "
+    "(    !@         %    \"     $    !     0         )    \"             A #@   $     &    \"     8         !0    @   "
+    " !     @    $         \"0   !           ,!R0       ,)% #@   #     &    \"     0         !0    @    !     @    $   "
+    "      $  \" %1,   .    .     8    (    !@         %    \"     $    !     0         )    \"        \"  *JQ #@   #@ "
+    "   &    \"     8         !0    @    !     0    $         \"0    @       \"0 *RJ0 X    X    !@    @    &          4"
+    "    (     0    $    !          D    (             $ .    0     8    (    !@         %    \"     $    \"     0     "
+    "    )    $           <(=       !HD$ .    ,     8    (    !          %    \"     $    \"     0         0  ( 5$P   X"
+    "    X    !@    @    &          4    (     0    $    !          D    (        (  RK$ .    .     8    (    !@       "
+    "  %    \"     $    !     0         )    \"        \"  ,*Q #@   #@    &    \"     8         !0    @    !     0    $"
+    "         \"0    @           #P/PX   !     !@    @    &          4    (     0    (    !          D    0          !P"
+    "AT       &B00 X    P    !@    @    $          4    (     0    (    !         !   @!43   #@   #@    &    \"     8  "
+    "       !0    @    !     0    $         \"0    @        @ #JL0 X    X    !@    @    &          4    (     0    $   "
+    " !          D    (        (  XK$ .    : (   8    (     @         %    \"     $    !     0         %  0 #@    $   !"
+    "B    9&ES<%1I;64       !D:7-P36]D90       &UI;E1I;64         ;6%X5&EM90        !A9G1E<D9I;F%L4W1R '-A;7!L951I;64  "
+    "   >F5R;T-R;W-S               .    0     8    (    !@         %    \"     $    \"     0         )    $            "
+    "           \"$ .    .     8    (    !@         %    \"     $    !     0         )    \"            / _#@   #@    &"
+    "    \"     8         !0    @    !     0    $         \"0    @               X    X    !@    @    &          4    ("
+    "     0    $    !          D    (            )$ .    0     8    (    !          %    \"     $    +     0         0 "
+    "   \"P   $5X=')A<&]L871E       .    .     8    (    !@         %    \"     $    !     0         )    \"           "
+    "    #@   #     &    \"     0         !0    @    !     @    $         $  \" &]N   .    D $   8    (     @         %"
+    "    \"     $    !     0         %  0 #@    $    X    86-T:79E1&ES<$ED> !T:6UE4F%N9V4      &YA;64             9&ES<"
+    "&QA>5)A;F=E   .    2     8    (    !@         %    \"     $    #     0         )    &             A          $    "
+    "    #P/PX   !     !@    @    &          4    (     0    (    !          D    0                       D0 X    X    "
+    "!@    @    $          4    (     0    <    !         !     '    1W)O=7 @,0 .    0     8    (    !@         %    \""
+    "     $    \"     0         )    $                       \"$ .    .     8    (    !@         %    \"     $    !    "
+    " 0         )    \"            / _#@   #@    &    \"     8         !0    @    !     0    $         \"0    @        "
+    "       X   \"     !@    @    1          $          0 $ $U#3U,!    \"    %-I9U-U:71E#@   $@    &    \"     T       "
+    "  !0    @    &     0    $         !@   !@       #= @    $    !     0    ,    .    N T   8    (    \"0         %   "
+    " \"     $   \"(#0   0         \"    B T    !24T     #@   .@,   &    \"     (         !0    @    !     0    $      "
+    "   !0 $  4    !    !0   $U#3U,     #@   * ,   &    \"    !$          0         !  0 34-/4P$    -    1FEL95=R87!P97"
+    ")?7P    X   !@#   !@    @    !          4    (    #P    $    !          X   \"0 @  !@    @    )          4    (   "
+    " 8 (   $    !          (   !@ @   @    T   \"P    \\    /    \"  0  , (  & \"             $=R;W5P<P!.86UE %-I9VYA;"
+    "', 6$1A=&$ 641A=&$ 4VEG4W5I=&53:6=N86P 57-E<D1A=&$ 4VEG4W5I=&5'<F]U< !!8W1I=F53:6=N86P 4F5Q=6ER96UE;G1);F9O %1I;65"
+    "286YG90!3:6=3=6ET90!!8W1I=F5'<F]U<                                     8                    (                    #"
+    "                                                P                    $    %     @                    (    $     0 "
+    "                   ,    !     0                    0    \"     0                    4    #               !     0  "
+    "  $    +     @    (    !          ,    !    \"@         #     @    $    !    !     $    \"    !0    $    #     P  "
+    "  (    !    !     0    !    !0    4    !    !@    ,    \"     0    <    $     0    @    %     0    D              "
+    "                                                      .          X    X    !@    @    $          4    (     0    <"
+    "    !         !     '    1W)O=7 @,0 .    .     8    (    !          %    \"     $    (     0         0    \"    %-"
+    "I9VYA;\" R#@   &     &    \"     8         !0    @    !    !@    $         \"0   #                       / _*5R/PO"
+    "4H\\#\\         0!2N1^%Z% !         )$ .    8     8    (    !@         %    \"     $    &     0         )    ,    "
+    "       0(]       ! CT       $\"/0       0(]       ! CT       $\"/0 X    X    !@    @    $          4    (     0   "
+    " @    !         !     (    4VEG;F%L(#,.    <     8    (    !@         %    \"     $    (     0         )    0     "
+    "                  \\#\\I7(_\"]2CP/RE<C\\+U*/ _         $          0!2N1^%Z% !         )$ .    <     8    (    !@  "
+    "       %    \"     $    (     0         )    0           0(]       ! CT       $\"/0       V(A       #8B$       $\""
+    "/0       0(]       ! CT .    .     8    (    !          %    \"     $    (     0         0    \"    %-I9VYA;\" T#@"
+    "   '     &    \"     8         !0    @    !    \"     $         \"0   $                       / _*5R/PO4H\\#\\I7(_"
+    "\"]2CP/P        !          $ 4KD?A>A0 0        \"1 #@   '     &    \"     8         !0    @    !    \"     $      "
+    "   \"0   $           $\"/0       0(]       ! CT        !Y0        'E       ! CT       $\"/0       0(] #@   %     &"
+    "    \"     T         !0    @    (     0    $         !@   \"        #= @    $    #     P    0    %     0    X   !("
+    "    !@    @    -          4    (    !@    $    !          8    8        W0(    !     0    (    \"    #@   #@%   & "
+    "   \"     $         !0    @    $     0    $         #@   #@    &    \"     (         !0    @    !          $      "
+    "   !0 $  $    !          X   !  0  !@    @    \"          4    (     0    $    !          4 !  )     0   \"0   !.8"
+    "6UE      !81&%T80    !91&%T80    !5<V5R1&%T80      #@   #     &    \"     0         !0    @               $       "
+    "  $          .    ,     8    (    !@         %    \"                0         )          X    P    !@    @    &   "
+    "       4    (               !          D         #@   #     &    \"     8         !0    @               $         "
+    "\"0         .    $ (   8    (     @         %    \"     $    !     0         %  0 $     $   !@    3F%M90          "
+    "     %-I9VYA;',           !!8W1I=F53:6=N86P     4F5Q=6ER96UE;G1);F9O %5S97)$871A          !4:6UE4F%N9V4         #@"
+    "   #     &    \"     0         !0    @               $         $          .    2     8    (    #0         %    \" "
+    "    4    !     0         &    %        -T\"               !          X    P    !@    @    &          4    (       "
+    "        !          D         #@   #     &    \"     0         !0    @               $         $          .    ,   "
+    "  8    (    !@         %    \"                0         )          X   !     !@    @    &          4    (     0   "
+    " (    !          D    0                       D0 X   !H 0  !@    @    \"          4    (     0    $    !          "
+    "4 !  ,     0   #    !.86UE          !'<F]U<',       !!8W1I=F5'<F]U< !5<V5R1&%T80     .    ,     8    (    !       "
+    "   %    \"                0         0          X   !(    !@    @    -          4    (    !0    $    !          8  "
+    "  4        W0(               (         #@   #@    &    \"     8         !0    @    !     0    $         \"0    @  "
+    "         #P/PX    P    !@    @    &          4    (               !          D         #@   (@    &    \"     D   "
+    "      !0    @    !    6     $          @   %@      4E-      X   !(    !@    @    \"          4    (     0    $    "
+    "!          4 !  %     0    4   !-0T]3      X         "
+  }
+  DataRecord {
+    Tag			    DataTag0
+    Data		    "  %)30     .    D 0   8    (     @         %    \"     $    )     0         %  0 !@    $    ,    3F%M90"
+    "  5F%L=64       X    P    !@    @    $          4    (     0    ,    !         !   P!)<V, #@   #@    &    \"     8"
+    "         !0    @    !     0    $         \"0    @   !F9F9F9F8.0 X    P    !@    @    $          4    (     0    , "
+    "   !         !   P!6;V, #@   #@    &    \"     8         !0    @    !     0    $         \"0    @   \":F9F9F1DU0 X"
+    "    P    !@    @    $          4    (     0    (    !         !   @!.<P  #@   #@    &    \"     8         !0    @ "
+    "   !     0    $         \"0    @           #P/PX    P    !@    @    $          4    (     0    0    !         !  !"
+    " !'<W1C#@   #@    &    \"     8         !0    @    !     0    $         \"0    @          $\"/0 X    P    !@    @ "
+    "   $          4    (     0    $    !         !   0!N    #@   #@    &    \"     8         !0    @    !     0    $  "
+    "       \"0    @   #-S,S,S,ST/PX    P    !@    @    $          4    (     0    (    !         !   @!2<P  #@   #@   "
+    " &    \"     8         !0    @    !     0    $         \"0    @   \"/PO4H7(_B/PX    P    !@    @    $          4  "
+    "  (     0    $    !         !   0!$    #@   #@    &    \"     8         !0    @    !     0    $         \"0    @  "
+    "         #X/PX    P    !@    @    $          4    (     0    0    !         !  ! !&;&%G#@   #@    &    \"     8   "
+    "      !0    @    !     0    $         \"0    @               X   !     !@    @    $          4    (     0    D    "
+    "!         !     )    5F]C7V%R<F%Y          X    X    !@    @    &          4    (     0    $    !          D    ( "
+    "         ! :D "
+  }
+}
